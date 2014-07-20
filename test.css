@@ -1,0 +1,19 @@
+@namespace url(http://www.w3.org/1999/xhtml);  
+
+@-moz-document domain("facebook.com")
+{
+
+	body {
+		background-image: url('http://i.imgur.com/tALcU1A.jpg') !important;
+		background-repeat:repeat !important;
+		background-attachment:fixed !important;
+		background-position:center !important;
+	}
+	#rightCol {
+		opacity: 0.4;
+	}
+	#rightCol::before {
+		background-color: #B8D1DE !important;
+		filter: blur(5px) !important;
+	}
+}
